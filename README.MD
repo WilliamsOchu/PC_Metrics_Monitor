@@ -47,7 +47,7 @@ You need to have an understanding of sending emails using the python smtplib. Th
 **password = os.environ.get('pass')**
 **recipient = ['example@mail.com']**
 
-Attached here is a link to a video showing how to setup smtp on gmail. In this video you only need to generate an app password which will be used as your smtp password.[https://www.youtube.com/watch?v=g_j6ILT-X0k&t=604s]:(How to setup SMTP for python on gmail)
+Attached here is a link to a video showing how to setup smtp on gmail. In this video you only need to generate an app password which will be used as your smtp password [https://www.youtube.com/watch?v=g_j6ILT-X0k&t=604s]: (How to setup SMTP for python on gmail).
 Under the mail_report function, you can edit the sender and password variables to your gmail address and generated password. For security we set the password variable as an environment variable. In your current shell you can export your password as an environment variable or you may wish to enter your password as plain text. 
 You can add destination mailboxes under the recipient variable. This variable is a list and can take as many mailboxes as you wish. Kindly seprate the addresses with a comma.
 
