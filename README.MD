@@ -43,9 +43,9 @@ Run the script to generate a pdf report containing pc metrics
 Retrieve PC Metrics, generate report and send report to mailboxes. 
 First you need to edit the pc_emails.py script as stated below,
 You need to have an understanding of sending emails using the python smtplib. The smtp module has already been setup, however you will input your mail address and app password as well as the recipient or recipients.
-**sender = "your_gmail@gmail.com"**
-**password = os.environ.get('pass')**
-**recipient = ['example@mail.com']**
+<br>**sender = "your_gmail@gmail.com"**</br>
+<br>**password = os.environ.get('pass')**</br>
+<br>**recipient = ['example@mail.com']**</br>
 
 Attached here is a link to a video showing how to setup smtp on gmail. In this video you only need to generate an app password which will be used as your smtp password [https://www.youtube.com/watch?v=g_j6ILT-X0k&t=604s]: (How to setup SMTP for python on gmail).
 Under the mail_report function, you can edit the sender and password variables to your gmail address and generated password. For security we set the password variable as an environment variable. In your current shell you can export your password as an environment variable or you may wish to enter your password as plain text. 
